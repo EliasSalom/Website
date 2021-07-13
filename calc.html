@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/calc.css">
+</head>
+<body>
+    <h1>Web Ahead 10</h1>
+    <div class="container">
+      <div class="header">Calculator</div>
+      <input type="text" id="result" class="result">
+      <div class="first-row">
+        <input type="button" name="" onclick="dis('gg')" value="&radic;" class="global">
+        <input type="button" name="" onclick="dis('(')" value="(" class="global">
+        <input type="button" name="" onclick="dis(')')" value=")" class="global">
+        <input type="button" name="" onclick="dis('%')" value="%" class="global">
+      </div>
+      <div class="second-row">
+        <input type="button" name="" onclick="dis('7')" value="7" class="global">
+        <input type="button" name="" onclick="dis('8')" value="8" class="global">
+        <input type="button" name="" onclick="dis('9')" value="9" class="global">
+        <input type="button" name="" onclick="dis('/')" value="/" class="global">
+      </div>
+      <div class="third-row">
+        <input type="button" name="" onclick="dis('4')" value="4" class="global">
+        <input type="button" name="" onclick="dis('5')" value="5" class="global">
+        <input type="button" name="" onclick="dis('6')" value="6" class="global">
+        <input type="button" name="" onclick="dis('*')" value="X" class="global">
+      </div>
+      <div class="fourth-row">
+        <input type="button" name="" onclick="dis('1')" value="1" class="global">
+        <input type="button" name="" onclick="dis('2')" value="2" class="global">
+        <input type="button" name="" onclick="dis('3')" value="3" class="global">
+        <input type="button" name="" onclick="dis('-')" value="-" class="global">
+      </div>
+      <div class="conflict">
+        <div class="left">
+          <input type="button" name="" onclick="dis('0')" value="0" class=" big">
+          <input type="button" name="" onclick="dis('.')" value="." class=" small">
+          <input type="button" name="" onclick="clr()" value="Del" class=" red small white-text top-margin">
+          <input type="button" name="" onclick="solve()" value="=" class=" green white-text big top-margin">
+        </div>
+        <div class="right">
+          <input type="button" name="" onclick="dis('+')" value="+" class="global grey plus">
+        </div>
+      </div>
+    </div>
+    <script src="/js/calc.js"></script>
+</body>
+</html>

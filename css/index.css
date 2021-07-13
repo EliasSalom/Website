@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 3% 20%;
+background-color: #e8f8ff;
+}
+h1{
+    color: #19b5fe;
+    font-size: 50px;
+}
+.search{
+    background-color: #d1f0ff;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    box-shadow: #a3e1ff 0px 0px 8px;
+}
+.list{
+    width: 100%;
+    background-color: #d1f0ff;
+    padding: 2%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: #a3e1ff 0px 0px 8px;
+}
+.txt{
+    border-radius: 10px;
+    height: 30px;
+    width: 190px;
+    outline: none;
+}
+.btn{
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 90px;
+    background-color: #19b5fe;
+    outline: none;
+}
+.btn:hover{
+    background-color: #5ecbfe;
+}
+.todo:hover{
+    font-size: 30px;
+    color: #1491cb;
+}
+#myList{
+    display: flex;
+}
+.delete{
+    border-radius: 10px;
+    border: none;
+    background-color: #f64747;
+    outline: none;
+    margin: 5px;
+}
+.delete:hover{
+    background-color: rgb(236, 132, 132);
+}
+.Edit{
+    border-radius: 10px;
+    border: none;
+    background-color: #19b5fe;
+    outline: none;
+    margin: 5px;
+
+}
+.Edit:hover{
+    background-color: #5ecbfe;
+}
+.Task{
+    border-radius: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    border-radius: 20px;
+}
